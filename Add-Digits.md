@@ -1,4 +1,4 @@
- Add Digits
+Add Digits
  ===
  
  1.问题描述
@@ -14,7 +14,7 @@ Given num = 38, the process is like: 3 + 8 = 11, 1 + 1 = 2. Since 2 has only one
 
 因为有相同的步骤所以就写了个函数，在不断地调用函数就可以解决这个问题。
 
-3.代码
+3.代码I
 ---
 
 ```c
