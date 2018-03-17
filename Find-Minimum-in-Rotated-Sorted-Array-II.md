@@ -61,5 +61,3 @@ int findMin(int* nums, int numsSize) {
     //这里返回nums[start]或者nums[end]都是可以的
 }    
 ```
-
-取中间的下标，如果nums[mid]<nums[end]说明最小值在左边，令mid=end,如果nums[mid]>nums[end]
