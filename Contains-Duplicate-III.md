@@ -73,3 +73,4 @@ bool containsNearbyAlmostDuplicate(int* nums, int numsSize, int k, int t) {
 }
 ```
 
+定义一个指针数组，把给定的数组赋值给该指针数组，然后再对指针数组进行排序，用比较地址来比较它们的下标，因为再排序的时候它的地址是不发生改变的，所以直接比较地址即可，还要注意的是地址和下标不完全等价，要除以四才可以。
