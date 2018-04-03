@@ -44,5 +44,4 @@ int hammingWeight(uint32_t n) {
 }
 ```
 
-关于n&(n-1)      [n&(n-1)妙用][1]<br>
-[1]:https://blog.csdn.net/u012965373/article/details/50592727
+关于n&(n-1)      [n&(n-1)妙用](https://blog.csdn.net/u012965373/article/details/50592727)
