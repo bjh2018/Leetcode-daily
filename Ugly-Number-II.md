@@ -38,6 +38,7 @@ int nthUglyNumber(int n) {
 ```
 
 4.代码（Accepted）
+---
 
 ```c
 int nthUglyNumber(int n) {
