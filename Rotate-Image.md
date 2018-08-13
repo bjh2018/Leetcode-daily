@@ -51,4 +51,22 @@ rotate the input matrix in-place such that it becomes:
 
 分析题意，得出规律，编写代码即可。（但是要多申请空间）
 
-![image](
+![image](https://github.com/bjh2018/Leetcode-daily/blob/master/timg.jpg)
+
+3.代码
+---
+
+```c
+class Solution {
+public:
+    void rotate(vector<vector<int>>& matrix) {
+        int m=matrix.size(), n=matrix[0].size();
+        vector <vector<int>> tmp(matrix);
+        for (int i=0; i<m; i++) {
+            for (int j=0; j<n; j++) {
+                matrix[i][j]=tmp[m-1-j][i];
+            }
+        }
+    }
+};
+```
