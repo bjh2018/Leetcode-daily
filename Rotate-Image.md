@@ -51,8 +51,6 @@ rotate the input matrix in-place such that it becomes:
 
 分析题意，得出规律，编写代码即可。（但是要多申请空间）
 
-![image](https://github.com/bjh2018/Leetcode-daily/blob/master/timg.jpg)
-
 3.代码
 ---
 
